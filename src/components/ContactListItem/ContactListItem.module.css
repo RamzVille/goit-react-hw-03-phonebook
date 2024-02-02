@@ -1,0 +1,32 @@
+
+.contactListItem {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 5px;
+}
+.contactAlign{
+    float: right;
+}
+
+.btnDelete{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btnDelete:hover,
+.btnDelete:focus {
+    background-color: #45a049;
+}
+.confirmBox{
+    box-shadow: none;
+    /* border-radius: 0%; */
+}

@@ -1,0 +1,35 @@
+.divFilter {
+    padding: 8px;
+    border: 1px solid #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 87%;
+    margin: 15px auto;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inputContainer {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: rgb(156, 157, 157);
+    /* Adjust the left value to control the distance between the icon and the text */
+    transform: translateY(-50%);
+}
